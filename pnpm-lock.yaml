@@ -1896,7 +1896,7 @@ importers:
       '@emotion/react': ^11.10.4
       '@types/prop-types': ^15.7.4
       '@types/react': ^17.0.2
-      '@types/react-dom': ^17.0.2
+      '@types/react-dom': ^18.0.6
       '@types/wordpress__components': ^19.10.1
       '@woocommerce/components': workspace:*
       '@woocommerce/data': workspace:*
@@ -1941,8 +1941,12 @@ importers:
 <<<<<<< HEAD
 =======
       '@types/react': 17.0.50
+<<<<<<< HEAD
       '@types/react-dom': 17.0.17
 >>>>>>> 0659f60c7b (Add required dependencies)
+=======
+      '@types/react-dom': 18.0.11
+>>>>>>> 789f45da2b (Sync non compatible npm dependencies across plugins)
       '@types/wordpress__components': 19.10.1_sfoxds7t5ydpegc3knd667wn6m
       '@woocommerce/dependency-extraction-webpack-plugin': link:../../packages/js/dependency-extraction-webpack-plugin
       '@woocommerce/eslint-plugin': link:../../packages/js/eslint-plugin
@@ -13231,7 +13235,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.17.7
       '@types/react': 17.0.50
-      '@types/react-dom': 17.0.17
+      '@types/react-dom': 18.0.11
       '@types/react-test-renderer': 17.0.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -13291,7 +13295,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.19.0
       '@testing-library/dom': 8.11.3
-      '@types/react-dom': 17.0.17
+      '@types/react-dom': 18.0.11
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
 
@@ -13723,6 +13727,7 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@types/react-dom/16.9.16:
     resolution: {integrity: sha512-Oqc0RY4fggGA3ltEgyPLc3IV9T73IGoWjkONbsyJ3ZBn+UPPCYpU2ec0i3cEbJuEdZtkqcCF2l1zf2pBdgUGSg==}
     dependencies:
@@ -13732,6 +13737,10 @@ packages:
 >>>>>>> 0659f60c7b (Add required dependencies)
   /@types/react-dom/17.0.17:
     resolution: {integrity: sha512-VjnqEmqGnasQKV0CWLevqMTXBYG9GbwuE6x3VetERLh0cq2LTptFE73MrQi2S7GkKXCf2GgwItB/melLnxfnsg==}
+=======
+  /@types/react-dom/18.0.11:
+    resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
+>>>>>>> 789f45da2b (Sync non compatible npm dependencies across plugins)
     dependencies:
       '@types/react': 17.0.50
 
@@ -16654,6 +16663,7 @@ packages:
       '@babel/runtime': 7.19.0
       '@types/react': 17.0.50
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@types/react-dom': 16.9.16
       '@wordpress/escape-html': 1.12.2
       lodash: 4.17.21
@@ -16661,6 +16671,9 @@ packages:
       react-dom: 16.14.0_react@17.0.2
 =======
       '@types/react-dom': 17.0.17
+=======
+      '@types/react-dom': 18.0.11
+>>>>>>> 789f45da2b (Sync non compatible npm dependencies across plugins)
       '@wordpress/escape-html': 1.12.2
       lodash: 4.17.21
       react: 17.0.2
@@ -16674,10 +16687,14 @@ packages:
       '@babel/runtime': 7.19.0
       '@types/react': 17.0.50
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@types/react-dom': 16.9.16
 =======
       '@types/react-dom': 17.0.17
 >>>>>>> 0659f60c7b (Add required dependencies)
+=======
+      '@types/react-dom': 18.0.11
+>>>>>>> 789f45da2b (Sync non compatible npm dependencies across plugins)
       '@wordpress/escape-html': 2.22.0
       lodash: 4.17.21
       react: 17.0.2
@@ -16690,7 +16707,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.19.0
       '@types/react': 17.0.50
-      '@types/react-dom': 17.0.17
+      '@types/react-dom': 18.0.11
       '@wordpress/escape-html': 2.22.0
       change-case: 4.1.2
       is-plain-object: 5.0.0
@@ -16703,7 +16720,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.17.7
       '@types/react': 17.0.50
-      '@types/react-dom': 17.0.17
+      '@types/react-dom': 18.0.11
       '@wordpress/escape-html': 2.15.0
       lodash: 4.17.21
       react: 17.0.2
@@ -16717,10 +16734,14 @@ packages:
       '@babel/runtime': 7.19.0
       '@types/react': 17.0.50
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@types/react-dom': 18.0.11
 =======
       '@types/react-dom': 17.0.17
 >>>>>>> 0659f60c7b (Add required dependencies)
+=======
+      '@types/react-dom': 18.0.11
+>>>>>>> 789f45da2b (Sync non compatible npm dependencies across plugins)
       '@wordpress/escape-html': 2.28.0
       change-case: 4.1.2
       is-plain-object: 5.0.0
