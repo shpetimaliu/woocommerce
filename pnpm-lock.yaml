@@ -878,7 +878,7 @@ importers:
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.54.0_odmkqudqazj6zql7bilcklpxhm
       '@typescript-eslint/parser': 5.54.0_yygwinqv3a2io74xmwofqb7uka
-      '@wordpress/eslint-plugin': 14.1.0_gfyzvuspv2bauiwltqdx5274hy
+      '@wordpress/eslint-plugin': 14.0.0_gfyzvuspv2bauiwltqdx5274hy
       eslint-plugin-react-hooks: 4.6.0_eslint@8.32.0
       eslint-plugin-testing-library: 5.10.2_yygwinqv3a2io74xmwofqb7uka
     devDependencies:
@@ -1062,7 +1062,7 @@ importers:
       typescript: ^4.8.3
     dependencies:
       '@testing-library/jest-dom': 5.16.2
-      '@testing-library/react': 12.1.4_sfoxds7t5ydpegc3knd667wn6m
+      '@testing-library/react': 12.1.4_6l5554ty5ajsajah6yazvrjhoe
       '@wordpress/data': 6.15.0_react@17.0.2
       '@wordpress/i18n': 4.5.0
       '@wordpress/jest-console': 5.0.2_jest@27.5.1
@@ -1896,7 +1896,7 @@ importers:
       '@emotion/react': ^11.10.4
       '@types/prop-types': ^15.7.4
       '@types/react': ^17.0.2
-      '@types/react-dom': ^18.0.6
+      '@types/react-dom': ^17.0.2
       '@types/wordpress__components': ^19.10.1
       '@woocommerce/components': workspace:*
       '@woocommerce/data': workspace:*
@@ -1939,6 +1939,7 @@ importers:
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       '@types/react': 17.0.50
 <<<<<<< HEAD
@@ -1947,6 +1948,8 @@ importers:
 =======
       '@types/react-dom': 18.0.11
 >>>>>>> 789f45da2b (Sync non compatible npm dependencies across plugins)
+=======
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
       '@types/wordpress__components': 19.10.1_sfoxds7t5ydpegc3knd667wn6m
       '@woocommerce/dependency-extraction-webpack-plugin': link:../../packages/js/dependency-extraction-webpack-plugin
       '@woocommerce/eslint-plugin': link:../../packages/js/eslint-plugin
@@ -2378,10 +2381,11 @@ packages:
       '@automattic/domain-utils': 1.0.0-alpha.0
       '@automattic/format-currency': 1.0.1
       '@automattic/happychat-connection': 1.0.0_hiunvzosbwliizyirxfy6hjyim
-      '@wordpress/api-fetch': 6.25.0
+      '@wordpress/api-fetch': 6.16.0
       '@wordpress/data': 6.15.0_react@17.0.2
       '@wordpress/data-controls': 2.10.0_react@17.0.2
       '@wordpress/deprecated': 3.28.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       '@wordpress/url': 3.29.0
@@ -2391,6 +2395,9 @@ packages:
 =======
       '@wordpress/url': 3.29.0
 >>>>>>> 391007c9a3 (Fix rebasing conflicts)
+=======
+      '@wordpress/url': 3.20.0
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
       fast-json-stable-stringify: 2.1.0
       i18n-calypso: 6.0.1_pxzommwrsowkd4kgag6q3sluym
       qs: 6.10.3
@@ -2801,32 +2808,6 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /@babel/helper-compilation-targets/7.17.7_@babel+core@7.12.9:
-    resolution: {integrity: sha512-UFzlz2jjd8kroj0hmCFV5zr+tQPi1dpC2cRsDV/3IEW8bJfCPrPpmcSN6ZS8RqIq4LXcmpipCQFPddyFA5Yc7w==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-    dependencies:
-      '@babel/compat-data': 7.19.3
-      '@babel/core': 7.12.9
-      '@babel/helper-validator-option': 7.18.6
-      browserslist: 4.21.4
-      semver: 6.3.0
-    dev: true
-
-  /@babel/helper-compilation-targets/7.17.7_@babel+core@7.16.12:
-    resolution: {integrity: sha512-UFzlz2jjd8kroj0hmCFV5zr+tQPi1dpC2cRsDV/3IEW8bJfCPrPpmcSN6ZS8RqIq4LXcmpipCQFPddyFA5Yc7w==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-    dependencies:
-      '@babel/compat-data': 7.19.3
-      '@babel/core': 7.16.12
-      '@babel/helper-validator-option': 7.18.6
-      browserslist: 4.21.4
-      semver: 6.3.0
-    dev: false
-
   /@babel/helper-compilation-targets/7.17.7_@babel+core@7.17.8:
     resolution: {integrity: sha512-UFzlz2jjd8kroj0hmCFV5zr+tQPi1dpC2cRsDV/3IEW8bJfCPrPpmcSN6ZS8RqIq4LXcmpipCQFPddyFA5Yc7w==}
     engines: {node: '>=6.9.0'}
@@ -3115,6 +3096,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.19.3
+    dev: true
 
   /@babel/helper-module-imports/7.16.7:
     resolution: {integrity: sha512-LVtS6TqjJHFc+nYeITRo6VLXve70xmq7wPhWTqDJusJEgGmkAACWwMiTNrvfoQo6hEhFwAIixNkvB0jPXDL8Wg==}
@@ -3171,6 +3153,7 @@ packages:
   /@babel/helper-plugin-utils/7.14.5:
     resolution: {integrity: sha512-/37qQCE3K0vvZKwoK4XU/irIJQdIfCJuhU5eKnNxpFDsOkgFaUAwbv+RYw6eYgsC0E4hS7r5KqGULUogqui0fQ==}
     engines: {node: '>=6.9.0'}
+    dev: true
 
   /@babel/helper-plugin-utils/7.18.9:
     resolution: {integrity: sha512-aBXPT3bmtLryXaoJLyYPXPlSD4p1ld9aYeR+sJNOZjJJGiOpb+fKfh3NkcCu7J54nUJwCERPBExCCpyCOHnu/w==}
@@ -3516,7 +3499,7 @@ packages:
     dependencies:
       '@babel/core': 7.12.9
       '@babel/helper-create-class-features-plugin': 7.17.6_@babel+core@7.12.9
-      '@babel/helper-plugin-utils': 7.18.9
+      '@babel/helper-plugin-utils': 7.19.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3529,7 +3512,7 @@ packages:
     dependencies:
       '@babel/core': 7.16.12
       '@babel/helper-create-class-features-plugin': 7.17.6_@babel+core@7.16.12
-      '@babel/helper-plugin-utils': 7.18.9
+      '@babel/helper-plugin-utils': 7.19.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -4197,7 +4180,7 @@ packages:
     dependencies:
       '@babel/core': 7.12.9
       '@babel/helper-create-class-features-plugin': 7.17.6_@babel+core@7.12.9
-      '@babel/helper-plugin-utils': 7.18.9
+      '@babel/helper-plugin-utils': 7.19.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4210,7 +4193,7 @@ packages:
     dependencies:
       '@babel/core': 7.16.12
       '@babel/helper-create-class-features-plugin': 7.17.6_@babel+core@7.16.12
-      '@babel/helper-plugin-utils': 7.18.9
+      '@babel/helper-plugin-utils': 7.19.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -4249,7 +4232,7 @@ packages:
       '@babel/core': 7.12.9
       '@babel/helper-annotate-as-pure': 7.16.7
       '@babel/helper-create-class-features-plugin': 7.17.6_@babel+core@7.12.9
-      '@babel/helper-plugin-utils': 7.18.9
+      '@babel/helper-plugin-utils': 7.19.0
       '@babel/plugin-syntax-private-property-in-object': 7.14.5_@babel+core@7.12.9
     transitivePeerDependencies:
       - supports-color
@@ -4264,7 +4247,7 @@ packages:
       '@babel/core': 7.16.12
       '@babel/helper-annotate-as-pure': 7.16.7
       '@babel/helper-create-class-features-plugin': 7.17.6_@babel+core@7.16.12
-      '@babel/helper-plugin-utils': 7.18.9
+      '@babel/helper-plugin-utils': 7.19.0
       '@babel/plugin-syntax-private-property-in-object': 7.14.5_@babel+core@7.16.12
     transitivePeerDependencies:
       - supports-color
@@ -4956,7 +4939,7 @@ packages:
     dependencies:
       '@babel/core': 7.12.9
       '@babel/helper-module-imports': 7.16.7
-      '@babel/helper-plugin-utils': 7.18.9
+      '@babel/helper-plugin-utils': 7.19.0
       '@babel/helper-remap-async-to-generator': 7.16.8
     transitivePeerDependencies:
       - supports-color
@@ -4970,7 +4953,7 @@ packages:
     dependencies:
       '@babel/core': 7.16.12
       '@babel/helper-module-imports': 7.16.7
-      '@babel/helper-plugin-utils': 7.18.9
+      '@babel/helper-plugin-utils': 7.19.0
       '@babel/helper-remap-async-to-generator': 7.16.8
     transitivePeerDependencies:
       - supports-color
@@ -6489,9 +6472,9 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.16.12
-      '@babel/helper-module-imports': 7.16.0
-      '@babel/helper-plugin-utils': 7.14.5
-      babel-plugin-polyfill-corejs2: 0.3.0_@babel+core@7.16.12
+      '@babel/helper-module-imports': 7.18.6
+      '@babel/helper-plugin-utils': 7.19.0
+      babel-plugin-polyfill-corejs2: 0.3.3_@babel+core@7.16.12
       babel-plugin-polyfill-corejs3: 0.4.0_@babel+core@7.16.12
       babel-plugin-polyfill-regenerator: 0.3.0_@babel+core@7.16.12
       semver: 6.3.0
@@ -6506,9 +6489,9 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.17.8
-      '@babel/helper-module-imports': 7.16.0
-      '@babel/helper-plugin-utils': 7.14.5
-      babel-plugin-polyfill-corejs2: 0.3.0_@babel+core@7.17.8
+      '@babel/helper-module-imports': 7.18.6
+      '@babel/helper-plugin-utils': 7.19.0
+      babel-plugin-polyfill-corejs2: 0.3.3_@babel+core@7.17.8
       babel-plugin-polyfill-corejs3: 0.4.0_@babel+core@7.17.8
       babel-plugin-polyfill-regenerator: 0.3.0_@babel+core@7.17.8
       semver: 6.3.0
@@ -7017,7 +7000,7 @@ packages:
     dependencies:
       '@babel/compat-data': 7.17.7
       '@babel/core': 7.12.9
-      '@babel/helper-compilation-targets': 7.17.7_@babel+core@7.12.9
+      '@babel/helper-compilation-targets': 7.19.3_@babel+core@7.12.9
       '@babel/helper-plugin-utils': 7.18.9
       '@babel/helper-validator-option': 7.16.7
       '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': 7.16.7_@babel+core@7.12.9
@@ -7084,7 +7067,7 @@ packages:
       '@babel/plugin-transform-unicode-escapes': 7.16.7_@babel+core@7.12.9
       '@babel/plugin-transform-unicode-regex': 7.16.7_@babel+core@7.12.9
       '@babel/preset-modules': 0.1.5_@babel+core@7.12.9
-      '@babel/types': 7.17.0
+      '@babel/types': 7.19.3
       babel-plugin-polyfill-corejs2: 0.3.0_@babel+core@7.12.9
       babel-plugin-polyfill-corejs3: 0.5.2_@babel+core@7.12.9
       babel-plugin-polyfill-regenerator: 0.3.0_@babel+core@7.12.9
@@ -7102,7 +7085,7 @@ packages:
     dependencies:
       '@babel/compat-data': 7.17.7
       '@babel/core': 7.16.12
-      '@babel/helper-compilation-targets': 7.17.7_@babel+core@7.16.12
+      '@babel/helper-compilation-targets': 7.19.3_@babel+core@7.16.12
       '@babel/helper-plugin-utils': 7.18.9
       '@babel/helper-validator-option': 7.16.7
       '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': 7.16.7_@babel+core@7.16.12
@@ -7169,7 +7152,7 @@ packages:
       '@babel/plugin-transform-unicode-escapes': 7.16.7_@babel+core@7.16.12
       '@babel/plugin-transform-unicode-regex': 7.16.7_@babel+core@7.16.12
       '@babel/preset-modules': 0.1.5_@babel+core@7.16.12
-      '@babel/types': 7.17.0
+      '@babel/types': 7.19.3
       babel-plugin-polyfill-corejs2: 0.3.0_@babel+core@7.16.12
       babel-plugin-polyfill-corejs3: 0.5.2_@babel+core@7.16.12
       babel-plugin-polyfill-regenerator: 0.3.0_@babel+core@7.16.12
@@ -9312,7 +9295,7 @@ packages:
       natural-orderby: 2.0.3
       object-treeify: 1.1.33
       password-prompt: 1.1.2
-      semver: 7.3.7
+      semver: 7.3.8
       string-width: 4.2.3
       strip-ansi: 6.0.1
       supports-color: 8.1.1
@@ -9411,6 +9394,7 @@ packages:
   /@oclif/screen/3.0.2:
     resolution: {integrity: sha512-S/SF/XYJeevwIgHFmVDAFRUvM3m+OjhvCAYMk78ZJQCYCQ5wS7j+LTt1ZEv2jpEEGg2tx/F6TYYWxddNAYHrFQ==}
     engines: {node: '>=12.0.0'}
+    deprecated: Deprecated in favor of @oclif/core
 
   /@octokit/auth-token/2.5.0:
     resolution: {integrity: sha512-r5FVUJCOLl19AxiuZD2VRZ/ORjp/4IN98Of6YJoJOkY75CIBuYfmiNHGrDwXr+aLGG55igl9QrxX3hbiXlLb+g==}
@@ -13235,7 +13219,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.17.7
       '@types/react': 17.0.50
-      '@types/react-dom': 18.0.11
+      '@types/react-dom': 18.0.9
       '@types/react-test-renderer': 17.0.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -13266,6 +13250,9 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
   /@testing-library/react/12.1.4_6l5554ty5ajsajah6yazvrjhoe:
     resolution: {integrity: sha512-jiPKOm7vyUw311Hn/HlNQ9P8/lHNtArAx0PisXyFixDDvfl8DbD6EUdbshK5eqauvBSvzZd19itqQ9j3nferJA==}
     engines: {node: '>=12'}
@@ -13274,18 +13261,27 @@ packages:
       react-dom: '*'
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@babel/runtime': 7.19.0
 =======
       '@babel/runtime': 7.17.7
 >>>>>>> 0659f60c7b (Add required dependencies)
       '@testing-library/dom': 8.11.3
       '@types/react-dom': 17.0.17
+=======
+      '@babel/runtime': 7.17.7
+      '@testing-library/dom': 8.11.3
+      '@types/react-dom': 18.0.9
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
       react: 17.0.2
       react-dom: 18.2.0_react@17.0.2
     dev: false
 
+<<<<<<< HEAD
 =======
 >>>>>>> 391007c9a3 (Fix rebasing conflicts)
+=======
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
   /@testing-library/react/12.1.4_sfoxds7t5ydpegc3knd667wn6m:
     resolution: {integrity: sha512-jiPKOm7vyUw311Hn/HlNQ9P8/lHNtArAx0PisXyFixDDvfl8DbD6EUdbshK5eqauvBSvzZd19itqQ9j3nferJA==}
     engines: {node: '>=12'}
@@ -13295,9 +13291,10 @@ packages:
     dependencies:
       '@babel/runtime': 7.19.0
       '@testing-library/dom': 8.11.3
-      '@types/react-dom': 18.0.11
+      '@types/react-dom': 18.0.9
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
+    dev: true
 
   /@testing-library/user-event/13.5.0_gzufz4q333be4gqfrvipwvqt6a:
     resolution: {integrity: sha512-5Kwtbo3Y/NowpkbRuSepbyMFkZmHgD+vPzYB/RJ4oxt5Gj/avFFBYjhw27cqSVPVw/3a67NK1PbiIr9k4Gwmdg==}
@@ -13728,11 +13725,15 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
   /@types/react-dom/16.9.16:
     resolution: {integrity: sha512-Oqc0RY4fggGA3ltEgyPLc3IV9T73IGoWjkONbsyJ3ZBn+UPPCYpU2ec0i3cEbJuEdZtkqcCF2l1zf2pBdgUGSg==}
     dependencies:
       '@types/react': 17.0.50
 
+<<<<<<< HEAD
 =======
 >>>>>>> 0659f60c7b (Add required dependencies)
   /@types/react-dom/17.0.17:
@@ -13747,6 +13748,15 @@ packages:
 <<<<<<< HEAD
   /@types/react-dom/18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
+=======
+  /@types/react-dom/17.0.17:
+    resolution: {integrity: sha512-VjnqEmqGnasQKV0CWLevqMTXBYG9GbwuE6x3VetERLh0cq2LTptFE73MrQi2S7GkKXCf2GgwItB/melLnxfnsg==}
+    dependencies:
+      '@types/react': 17.0.50
+
+  /@types/react-dom/18.0.9:
+    resolution: {integrity: sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==}
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
     dependencies:
       '@types/react': 17.0.50
 
@@ -13907,7 +13917,7 @@ packages:
       '@types/react': 17.0.50
       '@types/wordpress__blocks': 11.0.7_sfoxds7t5ydpegc3knd667wn6m
       '@types/wordpress__components': 19.10.1_sfoxds7t5ydpegc3knd667wn6m
-      '@types/wordpress__data': 6.0.2
+      '@types/wordpress__data': 6.0.0
       '@types/wordpress__keycodes': 2.3.1
       '@wordpress/element': 4.20.0
       react-autosize-textarea: 7.1.0_sfoxds7t5ydpegc3knd667wn6m
@@ -13982,13 +13992,13 @@ packages:
     dependencies:
       '@types/react': 17.0.50
       redux: 4.2.0
-    dev: true
 
   /@types/wordpress__data/6.0.2:
     resolution: {integrity: sha512-Pu67knXXoTWgCpxTKwePNZz/iKkYe8AQbkkSD/Ba1mw8t4zgEM+jJs5IV5N5ij/awwjs4Subj8mkvS3jMTDwyw==}
     dependencies:
       '@types/react': 17.0.50
       redux: 4.2.0
+    dev: true
 
   /@types/wordpress__keycodes/2.3.1:
     resolution: {integrity: sha512-CUZv3WdPvWqnEwojbc4yEttwZlvsMGI8YurgB9CHVJXx6nQ4U2RU6PB0Mv7nxATufduFDMKq8TNpCHBenZqEjQ==}
@@ -14030,13 +14040,13 @@ packages:
     resolution: {integrity: sha512-MeLSATBHrcN3fp8cVylbpx+BKRJ1aootPNtbTblcUAHcuRo6avKu1kaDLxIZb/8YbsD+/3Wm8d1uldeNz9/lhw==}
     dependencies:
       '@types/react': 17.0.50
-      '@types/wordpress__data': 6.0.2
+      '@types/wordpress__data': 6.0.0
 
   /@types/wordpress__viewport/2.5.4:
     resolution: {integrity: sha512-jS2wMNegsK1yN4Htay59ZYWyINqAcizKdIe0MSAga2ZWimTRe/0k2nsl0m6f9+rhFYlT/bLoA/CYHAOs5JHmRg==}
     dependencies:
       '@types/react': 17.0.50
-      '@types/wordpress__data': 6.0.2
+      '@types/wordpress__data': 6.0.0
     dev: true
 
   /@types/yargs-parser/20.2.1:
@@ -14905,6 +14915,7 @@ packages:
       '@wordpress/i18n': 4.28.0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@wordpress/url': 3.29.0
 =======
       '@wordpress/url': 3.20.0
@@ -14912,6 +14923,9 @@ packages:
 =======
       '@wordpress/url': 3.29.0
 >>>>>>> 391007c9a3 (Fix rebasing conflicts)
+=======
+      '@wordpress/url': 3.20.0
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
     dev: true
 
   /@wordpress/api-fetch/6.1.1:
@@ -14929,6 +14943,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.19.0
       '@wordpress/i18n': 4.28.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -14949,6 +14964,9 @@ packages:
 >>>>>>> 0659f60c7b (Add required dependencies)
 =======
 >>>>>>> 391007c9a3 (Fix rebasing conflicts)
+=======
+      '@wordpress/url': 3.20.0
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
 
   /@wordpress/autop/3.19.0:
     resolution: {integrity: sha512-Vl164Ilwmkx3M0LEyXkFdgksHjs3/FnHtw76tvdjjnLXtErUUIZ2y+hdCe+Esh8BhAUYXW420JU5KKvbidmykg==}
@@ -15017,8 +15035,8 @@ packages:
       '@babel/core': 7.17.8
     dev: true
 
-  /@wordpress/babel-plugin-import-jsx-pragma/4.11.0_@babel+core@7.17.8:
-    resolution: {integrity: sha512-yOK+vnuL9vm5GFwKyQ4SnMfcNBPHN21HeSPEFA7bB+pLT4xwgvdN7CVEYfvoRZbtZna/fMJgBqhhdEKXjlxViw==}
+  /@wordpress/babel-plugin-import-jsx-pragma/4.10.0_@babel+core@7.17.8:
+    resolution: {integrity: sha512-JEhn9v6rZJ4RVNC1g6W2KR4qd/VPwJ8hIoRIZnL0XxpCD7LTGiVm14rQPqlKZARqWlRknYn1Zt1pIr4XlVIPVg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/core': ^7.12.9
@@ -15123,8 +15141,8 @@ packages:
       - supports-color
     dev: true
 
-  /@wordpress/babel-preset-default/7.12.0:
-    resolution: {integrity: sha512-nMTVxJAfNTT8fOJfmcFgM1424wyzj/B00J1ulQG3QGYCLCqmXFmfevYepoElEDQrafFNTgvWfUYZs6oTVMrAZQ==}
+  /@wordpress/babel-preset-default/7.11.0:
+    resolution: {integrity: sha512-nFfGYmgdptqOnOwQqJYOOhqEECznhTT5oq3DaO/nw+LXczhIPWfBnVj5GWNIp+8mnwKDZcI2Ns5Vf64WSzA7Fw==}
     engines: {node: '>=14'}
     dependencies:
       '@babel/core': 7.17.8
@@ -15133,10 +15151,10 @@ packages:
       '@babel/preset-env': 7.19.3_@babel+core@7.17.8
       '@babel/preset-typescript': 7.18.6_@babel+core@7.17.8
       '@babel/runtime': 7.19.0
-      '@wordpress/babel-plugin-import-jsx-pragma': 4.11.0_@babel+core@7.17.8
-      '@wordpress/browserslist-config': 5.11.0
+      '@wordpress/babel-plugin-import-jsx-pragma': 4.10.0_@babel+core@7.17.8
+      '@wordpress/browserslist-config': 5.10.0
       '@wordpress/element': 5.5.0
-      '@wordpress/warning': 2.28.0
+      '@wordpress/warning': 2.27.0
       browserslist: 4.21.4
       core-js: 3.25.5
     transitivePeerDependencies:
@@ -15182,6 +15200,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.19.0
       '@react-spring/web': 9.5.5_sfoxds7t5ydpegc3knd667wn6m
+<<<<<<< HEAD
       '@wordpress/a11y': 3.28.0
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15193,28 +15212,33 @@ packages:
       '@wordpress/api-fetch': 6.25.0
 >>>>>>> 391007c9a3 (Fix rebasing conflicts)
       '@wordpress/blob': 3.28.0
+=======
+      '@wordpress/a11y': 3.19.0
+      '@wordpress/api-fetch': 6.16.0
+      '@wordpress/blob': 3.19.0
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
       '@wordpress/blocks': 11.18.0_react@17.0.2
       '@wordpress/components': 21.2.0_vcke6catv4iqpjdw24uwvlzyyi
       '@wordpress/compose': 5.17.0_react@17.0.2
       '@wordpress/data': 7.3.0_react@17.0.2
       '@wordpress/date': 4.19.0
-      '@wordpress/deprecated': 3.28.0
-      '@wordpress/dom': 3.28.0
+      '@wordpress/deprecated': 3.19.0
+      '@wordpress/dom': 3.19.0
       '@wordpress/element': 4.20.0
       '@wordpress/hooks': 3.28.0
-      '@wordpress/html-entities': 3.28.0
+      '@wordpress/html-entities': 3.19.0
       '@wordpress/i18n': 4.28.0
-      '@wordpress/icons': 9.19.0
-      '@wordpress/is-shallow-equal': 4.28.0
+      '@wordpress/icons': 9.10.0
+      '@wordpress/is-shallow-equal': 4.19.0
       '@wordpress/keyboard-shortcuts': 3.17.0_react@17.0.2
       '@wordpress/keycodes': 3.28.0
       '@wordpress/notices': 3.19.0_react@17.0.2
       '@wordpress/rich-text': 5.17.0_react@17.0.2
-      '@wordpress/shortcode': 3.28.0
+      '@wordpress/shortcode': 3.19.0
       '@wordpress/style-engine': 1.2.0
       '@wordpress/token-list': 2.19.0
-      '@wordpress/url': 3.29.0
-      '@wordpress/warning': 2.28.0
+      '@wordpress/url': 3.20.0
+      '@wordpress/warning': 2.19.0
       '@wordpress/wordcount': 3.19.0
       classnames: 2.3.1
       colord: 2.9.2
@@ -15374,9 +15398,9 @@ packages:
       '@wordpress/deprecated': 3.19.0
       '@wordpress/dom': 3.19.0
       '@wordpress/element': 4.20.0
-      '@wordpress/hooks': 3.26.0
+      '@wordpress/hooks': 3.28.0
       '@wordpress/html-entities': 3.19.0
-      '@wordpress/i18n': 4.19.0
+      '@wordpress/i18n': 4.28.0
       '@wordpress/is-shallow-equal': 4.19.0
       '@wordpress/shortcode': 3.19.0
       change-case: 4.1.2
@@ -15404,6 +15428,7 @@ packages:
       '@wordpress/block-serialization-default-parser': 4.28.0
       '@wordpress/compose': 5.17.0_react@17.0.2
       '@wordpress/data': 6.15.0_react@17.0.2
+<<<<<<< HEAD
       '@wordpress/deprecated': 3.28.0
 <<<<<<< HEAD
       '@wordpress/dom': 3.28.0
@@ -15422,8 +15447,15 @@ packages:
       '@wordpress/hooks': 3.28.0
       '@wordpress/html-entities': 3.28.0
 >>>>>>> 391007c9a3 (Fix rebasing conflicts)
+=======
+      '@wordpress/deprecated': 3.19.0
+      '@wordpress/dom': 3.19.0
+      '@wordpress/element': 4.20.0
+      '@wordpress/hooks': 3.28.0
+      '@wordpress/html-entities': 3.19.0
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
       '@wordpress/i18n': 4.28.0
-      '@wordpress/is-shallow-equal': 4.28.0
+      '@wordpress/is-shallow-equal': 4.19.0
       '@wordpress/shortcode': 3.19.0
 >>>>>>> 0659f60c7b (Add required dependencies)
       colord: 2.9.2
@@ -15516,8 +15548,8 @@ packages:
     resolution: {integrity: sha512-M4WQ0C4zCfMWyCmK40git3rfPdNkRwg5boGjoTL4LSdhrY+rtchFAtfOHS9KovAZ5ZzTB0gyZsCu/QKZlPClog==}
     engines: {node: '>=12'}
 
-  /@wordpress/browserslist-config/5.11.0:
-    resolution: {integrity: sha512-jpJoyiF0FRk5qnTqRJt5ysmtxyjwhtgUh9Xi5t/VN/JdJiFZk5/EnRQYClzmoaKO/XqocvhDpmVieuN6MXhYWQ==}
+  /@wordpress/browserslist-config/5.10.0:
+    resolution: {integrity: sha512-NYqAGHJno4/AqikS6pok4BuudUBZR/pd3fhSzQUVaCFgK2C5qzauaGU9C7J6sRJ1NDchJu05Ubu7gRkA8dIASA==}
     engines: {node: '>=14'}
     dev: false
 
@@ -15879,7 +15911,7 @@ packages:
       '@wordpress/keycodes': 3.28.0
       '@wordpress/primitives': 3.17.0
       '@wordpress/rich-text': 5.17.0_react@17.0.2
-      '@wordpress/warning': 2.28.0
+      '@wordpress/warning': 2.27.0
       change-case: 4.1.2
       classnames: 2.3.1
       colord: 2.9.2
@@ -15919,21 +15951,21 @@ packages:
       '@emotion/utils': 1.2.0
       '@floating-ui/react-dom': 1.0.0_sfoxds7t5ydpegc3knd667wn6m
       '@use-gesture/react': 10.2.10_react@17.0.2
-      '@wordpress/a11y': 3.28.0
+      '@wordpress/a11y': 3.19.0
       '@wordpress/compose': 5.17.0_react@17.0.2
       '@wordpress/date': 4.19.0
-      '@wordpress/deprecated': 3.28.0
-      '@wordpress/dom': 3.28.0
+      '@wordpress/deprecated': 3.19.0
+      '@wordpress/dom': 3.19.0
       '@wordpress/element': 4.20.0
       '@wordpress/escape-html': 2.22.0
       '@wordpress/hooks': 3.28.0
       '@wordpress/i18n': 4.28.0
-      '@wordpress/icons': 9.19.0
-      '@wordpress/is-shallow-equal': 4.28.0
+      '@wordpress/icons': 9.10.0
+      '@wordpress/is-shallow-equal': 4.19.0
       '@wordpress/keycodes': 3.28.0
       '@wordpress/primitives': 3.17.0
       '@wordpress/rich-text': 5.17.0_react@17.0.2
-      '@wordpress/warning': 2.28.0
+      '@wordpress/warning': 2.19.0
       change-case: 4.1.2
       classnames: 2.3.1
       colord: 2.9.2
@@ -16086,10 +16118,10 @@ packages:
     dependencies:
       '@babel/runtime': 7.19.0
       '@types/mousetrap': 1.6.9
-      '@wordpress/deprecated': 3.28.0
+      '@wordpress/deprecated': 3.19.0
       '@wordpress/dom': 3.19.0
       '@wordpress/element': 4.20.0
-      '@wordpress/is-shallow-equal': 4.28.0
+      '@wordpress/is-shallow-equal': 4.19.0
       '@wordpress/keycodes': 3.28.0
       '@wordpress/priority-queue': 2.19.0
       change-case: 4.1.2
@@ -16202,14 +16234,15 @@ packages:
       react: ^17.0.0
     dependencies:
       '@babel/runtime': 7.19.0
-      '@wordpress/api-fetch': 6.25.0
+      '@wordpress/api-fetch': 6.16.0
       '@wordpress/blocks': 11.18.0_react@17.0.2
       '@wordpress/compose': 5.17.0_react@17.0.2
       '@wordpress/data': 7.3.0_react@17.0.2
-      '@wordpress/deprecated': 3.28.0
+      '@wordpress/deprecated': 3.19.0
       '@wordpress/element': 4.20.0
-      '@wordpress/html-entities': 3.28.0
+      '@wordpress/html-entities': 3.19.0
       '@wordpress/i18n': 4.28.0
+<<<<<<< HEAD
       '@wordpress/is-shallow-equal': 4.28.0
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16220,6 +16253,10 @@ packages:
 =======
       '@wordpress/url': 3.29.0
 >>>>>>> 391007c9a3 (Fix rebasing conflicts)
+=======
+      '@wordpress/is-shallow-equal': 4.19.0
+      '@wordpress/url': 3.20.0
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
       change-case: 4.1.2
       equivalent-key-map: 0.2.2
       lodash: 4.17.21
@@ -16257,7 +16294,7 @@ packages:
       react: ^17.0.0
     dependencies:
       '@babel/runtime': 7.19.0
-      '@wordpress/api-fetch': 6.25.0
+      '@wordpress/api-fetch': 6.16.0
       '@wordpress/data': 6.15.0_react@17.0.2
       '@wordpress/deprecated': 3.28.0
       react: 17.0.2
@@ -16326,13 +16363,17 @@ packages:
     dependencies:
       '@babel/runtime': 7.19.0
       '@wordpress/compose': 5.17.0_react@17.0.2
-      '@wordpress/deprecated': 3.28.0
+      '@wordpress/deprecated': 3.19.0
       '@wordpress/element': 4.20.0
+<<<<<<< HEAD
       '@wordpress/is-shallow-equal': 4.28.0
 <<<<<<< HEAD
       '@wordpress/priority-queue': 2.28.0
       '@wordpress/redux-routine': 4.28.0_redux@4.2.0
 =======
+=======
+      '@wordpress/is-shallow-equal': 4.19.0
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
       '@wordpress/priority-queue': 2.19.0
       '@wordpress/redux-routine': 4.4.1_redux@4.2.0
 >>>>>>> 391007c9a3 (Fix rebasing conflicts)
@@ -16493,7 +16534,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@babel/runtime': 7.19.0
-      '@wordpress/hooks': 3.26.0
+      '@wordpress/hooks': 3.28.0
 
   /@wordpress/deprecated/3.19.0:
     resolution: {integrity: sha512-0YdT5emjDd7RPwQ0SMlUqqwxlxRDvF3hDsFJkUmMU5CtMVbWh+vnaGSmFEYJB7LyGc7ZkN0/BOvD2THl8bNnoA==}
@@ -16568,7 +16609,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@babel/runtime': 7.19.0
-      '@wordpress/deprecated': 3.28.0
+      '@wordpress/deprecated': 3.19.0
       lodash: 4.17.21
     dev: false
 
@@ -16642,6 +16683,7 @@ packages:
       '@wordpress/keycodes': 3.28.0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@wordpress/url': 3.29.0
 =======
       '@wordpress/url': 3.20.0
@@ -16649,6 +16691,9 @@ packages:
 =======
       '@wordpress/url': 3.29.0
 >>>>>>> 391007c9a3 (Fix rebasing conflicts)
+=======
+      '@wordpress/url': 3.20.0
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
       jest: 27.5.1
       lodash: 4.17.21
       node-fetch: 2.6.7
@@ -16662,6 +16707,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.19.0
       '@types/react': 17.0.50
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       '@types/react-dom': 16.9.16
@@ -16679,6 +16725,13 @@ packages:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
 >>>>>>> 0659f60c7b (Add required dependencies)
+=======
+      '@types/react-dom': 16.9.16
+      '@wordpress/escape-html': 1.12.2
+      lodash: 4.17.21
+      react: 17.0.2
+      react-dom: 16.14.0_react@17.0.2
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
 
   /@wordpress/element/3.2.0:
     resolution: {integrity: sha512-YXJhtBF8FnFYwA9X6Dvs4k6yJf5wy1lhU04VNJVzoUDwCt/pK747RGePIPDdUWVd3X/TlyNH2yLRtcCyOC/SzQ==}
@@ -16688,6 +16741,7 @@ packages:
       '@types/react': 17.0.50
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@types/react-dom': 16.9.16
 =======
       '@types/react-dom': 17.0.17
@@ -16695,6 +16749,9 @@ packages:
 =======
       '@types/react-dom': 18.0.11
 >>>>>>> 789f45da2b (Sync non compatible npm dependencies across plugins)
+=======
+      '@types/react-dom': 16.9.16
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
       '@wordpress/escape-html': 2.22.0
       lodash: 4.17.21
       react: 17.0.2
@@ -16707,7 +16764,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.19.0
       '@types/react': 17.0.50
-      '@types/react-dom': 18.0.11
+      '@types/react-dom': 17.0.17
       '@wordpress/escape-html': 2.22.0
       change-case: 4.1.2
       is-plain-object: 5.0.0
@@ -16720,7 +16777,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.17.7
       '@types/react': 17.0.50
-      '@types/react-dom': 18.0.11
+      '@types/react-dom': 17.0.17
       '@wordpress/escape-html': 2.15.0
       lodash: 4.17.21
       react: 17.0.2
@@ -16735,6 +16792,7 @@ packages:
       '@types/react': 17.0.50
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@types/react-dom': 18.0.11
 =======
       '@types/react-dom': 17.0.17
@@ -16742,15 +16800,22 @@ packages:
 =======
       '@types/react-dom': 18.0.11
 >>>>>>> 789f45da2b (Sync non compatible npm dependencies across plugins)
+=======
+      '@types/react-dom': 18.0.9
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
       '@wordpress/escape-html': 2.28.0
       change-case: 4.1.2
       is-plain-object: 5.0.0
       react: 17.0.2
 <<<<<<< HEAD
+<<<<<<< HEAD
       react-dom: 18.2.0_react@17.0.2
 =======
       react-dom: 17.0.2_react@17.0.2
 >>>>>>> 0659f60c7b (Add required dependencies)
+=======
+      react-dom: 18.2.0_react@17.0.2
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
 
   /@wordpress/env/4.9.0:
     resolution: {integrity: sha512-C2g5aOYxl1Bd9lypvEMjXZ1s1Gx/JHpFWuPlCAI8gAzwzB9jCIZkqpU85GsGScpZLAANS/N7wF3LMY68UkN9fQ==}
@@ -16845,8 +16910,8 @@ packages:
       - supports-color
     dev: true
 
-  /@wordpress/eslint-plugin/14.1.0_gfyzvuspv2bauiwltqdx5274hy:
-    resolution: {integrity: sha512-9RLpGuYNWPrSq+56bJ95KTCSJF8FBhCtbQRcAys36NOIKY9yE3q5YlqEjTPme8HNEXphLJcHKutNTDSThbTitQ==}
+  /@wordpress/eslint-plugin/14.0.0_gfyzvuspv2bauiwltqdx5274hy:
+    resolution: {integrity: sha512-oyYkEgVqSWIhkY0IT//EN8UoVPfME8thmQQ1KkhYnWDINjRsAvUXal2YDkOHetlFPBRZr1BUFFLtIczWfktruw==}
     engines: {node: '>=14', npm: '>=6.14.4'}
     peerDependencies:
       '@babel/core': '>=7'
@@ -16863,8 +16928,8 @@ packages:
       '@babel/eslint-parser': 7.17.0_45t77ya3ofqya5ogk4q6xdzcpq
       '@typescript-eslint/eslint-plugin': 5.54.0_odmkqudqazj6zql7bilcklpxhm
       '@typescript-eslint/parser': 5.54.0_yygwinqv3a2io74xmwofqb7uka
-      '@wordpress/babel-preset-default': 7.12.0
-      '@wordpress/prettier-config': 2.11.0_prettier@2.3.0
+      '@wordpress/babel-preset-default': 7.11.0
+      '@wordpress/prettier-config': 2.10.0_prettier@2.3.0
       cosmiconfig: 7.0.1
       eslint: 8.32.0
       eslint-config-prettier: 8.5.0_eslint@8.32.0
@@ -17566,8 +17631,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /@wordpress/prettier-config/2.11.0_prettier@2.3.0:
-    resolution: {integrity: sha512-dIZFb5JOI4AuDJoYJIj30eKhsAVic08ine+zRccFDKtK6IKcoRqKbY/AVEjXcpBpk1sg/Fz7zRCE23K5KVS1Sw==}
+  /@wordpress/prettier-config/2.10.0_prettier@2.3.0:
+    resolution: {integrity: sha512-dCPtQ8zoQHKlPOksJlrE0ZKRKEnT8vFfCMRN0mPGmZL5FV1aMINUnVKcD/MZE+SfGQq8BlFH3Jp14QNzderQSg==}
     engines: {node: '>=14'}
     peerDependencies:
       prettier: '>=2'
@@ -17769,9 +17834,9 @@ packages:
       '@wordpress/data': 7.3.0_react@17.0.2
       '@wordpress/element': 4.20.0
       '@wordpress/i18n': 4.28.0
-      '@wordpress/icons': 9.19.0
+      '@wordpress/icons': 9.10.0
       '@wordpress/notices': 3.19.0_react@17.0.2
-      '@wordpress/url': 3.29.0
+      '@wordpress/url': 3.20.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     transitivePeerDependencies:
@@ -18028,14 +18093,15 @@ packages:
       react-dom: ^17.0.0
     dependencies:
       '@babel/runtime': 7.19.0
-      '@wordpress/api-fetch': 6.25.0
+      '@wordpress/api-fetch': 6.16.0
       '@wordpress/blocks': 11.18.0_react@17.0.2
       '@wordpress/components': 21.2.0_vcke6catv4iqpjdw24uwvlzyyi
       '@wordpress/compose': 5.17.0_react@17.0.2
       '@wordpress/data': 7.3.0_react@17.0.2
-      '@wordpress/deprecated': 3.28.0
+      '@wordpress/deprecated': 3.19.0
       '@wordpress/element': 4.20.0
       '@wordpress/i18n': 4.28.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       '@wordpress/url': 3.29.0
@@ -18045,6 +18111,9 @@ packages:
 =======
       '@wordpress/url': 3.29.0
 >>>>>>> 391007c9a3 (Fix rebasing conflicts)
+=======
+      '@wordpress/url': 3.20.0
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
       lodash: 4.17.21
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -18147,13 +18216,6 @@ packages:
       '@babel/runtime': 7.19.0
       remove-accents: 0.4.2
 
-  /@wordpress/url/3.29.0:
-    resolution: {integrity: sha512-oRDMedZrAk6KfXZfSlxo+hanQY1ygTgq1Jesu0+EfilaJvkE36aQAoVKjll2JZl97y6GenIcpaTUjm0RA76Bgg==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@babel/runtime': 7.19.0
-      remove-accents: 0.4.2
-
   /@wordpress/url/3.5.1:
     resolution: {integrity: sha512-m4gjNdOkwaZ9NOVk/lYtpW4GoxHU0ZSv6WX3pFYRDSPdI1eX45uA8RrhPBYuj/e/XPUBiS+FXDilR0uvqqz9FA==}
     engines: {node: '>=12'}
@@ -18212,9 +18274,14 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
+  /@wordpress/warning/2.27.0:
+    resolution: {integrity: sha512-s5JIGBNGTnYVsNN0zxCRxbi2Gs+q+tqSZNAznHQWkCeANaB22LeUQw7KL13T0ekFL6y1h2jNP9tWSU5/mnMTCg==}
+    engines: {node: '>=12'}
+
   /@wordpress/warning/2.28.0:
     resolution: {integrity: sha512-6EnZBKHGJsCcgbYOqD/JX3R5B48u3Zmm3Ha1vUpJE9rIHjq8ALM9zG2bYqkTw4mieEs5TvlDOkS3tYoH+S+wsQ==}
     engines: {node: '>=12'}
+    dev: false
 
   /@wordpress/warning/2.4.1:
     resolution: {integrity: sha512-RE4iOGxYuWB0OnUEdp5qRDY1gteaBcIv3ihAYMM2e7EVqmE0rSHANjsYQQEk/3XfpnvaVTz+YGifMnaVF2z7Mg==}
@@ -19546,6 +19613,19 @@ packages:
       - supports-color
     dev: true
 
+  /babel-plugin-polyfill-corejs2/0.3.3_@babel+core@7.16.12:
+    resolution: {integrity: sha512-8hOdmFYFSZhqg2C/JgLUQ+t52o5nirNwaWM2B9LWteozwIvM14VSwdsCAUET10qT+kmySAlseadmfeeSWFCy+Q==}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/compat-data': 7.19.3
+      '@babel/core': 7.16.12
+      '@babel/helper-define-polyfill-provider': 0.3.3_@babel+core@7.16.12
+      semver: 6.3.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /babel-plugin-polyfill-corejs2/0.3.3_@babel+core@7.17.8:
     resolution: {integrity: sha512-8hOdmFYFSZhqg2C/JgLUQ+t52o5nirNwaWM2B9LWteozwIvM14VSwdsCAUET10qT+kmySAlseadmfeeSWFCy+Q==}
     peerDependencies:
@@ -20311,10 +20391,10 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001418
-      electron-to-chromium: 1.4.276
+      caniuse-lite: 1.0.30001352
+      electron-to-chromium: 1.4.151
       escalade: 3.1.1
-      node-releases: 2.0.6
+      node-releases: 2.0.5
       picocolors: 1.0.0
 
   /browserslist/4.21.4:
@@ -23613,7 +23693,7 @@ packages:
       is-glob: 4.0.3
       minimatch: 3.1.2
       object.values: 1.1.5
-      resolve: 1.20.0
+      resolve: 1.22.1
       tsconfig-paths: 3.14.0
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
@@ -23644,7 +23724,7 @@ packages:
       is-glob: 4.0.3
       minimatch: 3.1.2
       object.values: 1.1.5
-      resolve: 1.20.0
+      resolve: 1.22.1
       tsconfig-paths: 3.14.0
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
@@ -23675,7 +23755,7 @@ packages:
       is-glob: 4.0.3
       minimatch: 3.1.2
       object.values: 1.1.5
-      resolve: 1.20.0
+      resolve: 1.22.1
       tsconfig-paths: 3.14.0
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
@@ -27476,10 +27556,14 @@ packages:
       react: 17.0.2
       react-addons-create-fragment: 15.6.2
 <<<<<<< HEAD
+<<<<<<< HEAD
       react-dom: 16.14.0_react@17.0.2
 =======
       react-dom: 17.0.2_react@17.0.2
 >>>>>>> 0659f60c7b (Add required dependencies)
+=======
+      react-dom: 16.14.0_react@17.0.2
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
     dev: true
 
   /interpret/1.1.0:
@@ -28675,7 +28759,7 @@ packages:
       babel-jest: 27.5.1_@babel+core@7.17.8
       chalk: 4.1.2
       ci-info: 3.2.0
-      deepmerge: 4.3.0
+      deepmerge: 4.2.2
       glob: 7.2.0
       graceful-fs: 4.2.9
       jest-circus: 27.5.1
@@ -35583,6 +35667,9 @@ packages:
       scheduler: 0.20.2
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
   /react-dom/18.2.0_react@17.0.2:
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
@@ -35592,8 +35679,11 @@ packages:
       react: 17.0.2
       scheduler: 0.23.0
 
+<<<<<<< HEAD
 =======
 >>>>>>> 391007c9a3 (Fix rebasing conflicts)
+=======
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
   /react-draggable/4.4.4_sfoxds7t5ydpegc3knd667wn6m:
     resolution: {integrity: sha512-6e0WdcNLwpBx/YIDpoyd2Xb04PB0elrDrulKUgdrIlwuYvxh5Ok9M+F8cljm8kPXXs43PmMzek9RrB1b7mLMqA==}
     peerDependencies:
@@ -37344,13 +37434,19 @@ packages:
       loose-envify: 1.4.0
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
   /scheduler/0.23.0:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
 
+<<<<<<< HEAD
 =======
 >>>>>>> 391007c9a3 (Fix rebasing conflicts)
+=======
+>>>>>>> ad755269f2 (Fixing dependencies conflicts and ignoring some non running test)
   /schema-utils/1.0.0:
     resolution: {integrity: sha512-i27Mic4KovM/lnGsy8whRCHhc7VicJajAjTrYg11K9zfZXnYIt4k5F+kZkwjnrhKzLic/HLU4j11mjsz2G/75g==}
     engines: {node: '>= 4'}
