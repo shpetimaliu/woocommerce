@@ -109,6 +109,11 @@ class FeaturesController {
 				'is_experimental' => true,
 				'disable_ui'      => false,
 			),
+			'new_product_management_blocks' => array(
+				'name'            => __( 'New product management experience', 'woocommerce' ),
+				'description'     => __( 'Try the new product management experience with Gutenberg Blocks (Alpha)', 'woocommerce' ),
+				'is_experimental' => true,
+			),
 			'custom_order_tables'    => array(
 				'name'            => __( 'High-Performance order storage (COT)', 'woocommerce' ),
 				'description'     => __( 'Enable the high performance order storage feature.', 'woocommerce' ),
