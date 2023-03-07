@@ -135,7 +135,7 @@
 	}
 }
 
-.woocommerce-layout:has( .woocommerce-product-block-editor ) {
+.woocommerce-layout:has(.woocommerce-product-block-editor) {
 	.woocommerce-layout__header {
 		display: none;
 	}
