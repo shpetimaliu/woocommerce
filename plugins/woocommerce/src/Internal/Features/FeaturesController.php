@@ -90,20 +90,20 @@ class FeaturesController {
 	 */
 	public function __construct() {
 		$features = array(
-			'analytics'              => array(
+			'analytics'                     => array(
 				'name'               => __( 'Analytics', 'woocommerce' ),
 				'description'        => __( 'Enables WooCommerce Analytics', 'woocommerce' ),
 				'is_experimental'    => false,
 				'enabled_by_default' => true,
 				'disable_ui'         => false,
 			),
-			'new_navigation'         => array(
+			'new_navigation'                => array(
 				'name'            => __( 'Navigation', 'woocommerce' ),
 				'description'     => __( 'Adds the new WooCommerce navigation experience to the dashboard', 'woocommerce' ),
 				'is_experimental' => false,
 				'disable_ui'      => false,
 			),
-			'new_product_management' => array(
+			'new_product_management'        => array(
 				'name'            => __( 'New product editor', 'woocommerce' ),
 				'description'     => __( 'Try the new product editor (Beta)', 'woocommerce' ),
 				'is_experimental' => true,
@@ -114,13 +114,13 @@ class FeaturesController {
 				'description'     => __( 'Try the new product management experience with Gutenberg Blocks (Alpha)', 'woocommerce' ),
 				'is_experimental' => true,
 			),
-			'custom_order_tables'    => array(
+			'custom_order_tables'           => array(
 				'name'            => __( 'High-Performance order storage (COT)', 'woocommerce' ),
 				'description'     => __( 'Enable the high performance order storage feature.', 'woocommerce' ),
 				'is_experimental' => true,
 				'disable_ui'      => false,
 			),
-			'cart_checkout_blocks'   => array(
+			'cart_checkout_blocks'          => array(
 				'name'            => __( 'Cart & Checkout Blocks', 'woocommerce' ),
 				'description'     => __( 'Optimize for faster checkout', 'woocommerce' ),
 				'is_experimental' => false,
