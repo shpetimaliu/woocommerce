@@ -245,7 +245,7 @@ class Settings {
 	 * @return array
 	 */
 	public function get_features() {
-		$features = FeaturesUtil::get_features(true, true);
+		$features     = FeaturesUtil::get_features( true, true );
 		$new_features = array();
 
 		foreach ( array_keys( $features ) as $feature_id ) {
