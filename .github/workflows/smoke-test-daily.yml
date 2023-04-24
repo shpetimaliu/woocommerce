@@ -222,10 +222,15 @@ jobs:
 
             - name: Setup WooCommerce Monorepo
               uses: ./.github/actions/setup-woocommerce-monorepo
+              with:
+                  install-filters: woocommerce
+                  build: false
 
-            - name: Launch wp-env e2e environment
-              working-directory: plugins/woocommerce
-              run: pnpm env:test --filter=woocommerce
+
+            # - name: Launch wp-env e2e environment
+            #   working-directory: plugins/woocommerce
+            #   run: pnpm env:test --filter=woocommerce
+            
 
             - name: Download and install Chromium browser.
               working-directory: plugins/woocommerce
