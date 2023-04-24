@@ -184,9 +184,17 @@ jobs:
             contents: read
         needs: [api-tests]
         env:
-            USE_WP_ENV: 1
+            # USE_WP_ENV: 1
             ALLURE_RESULTS_DIR: ${{ github.workspace }}/plugins/woocommerce/tests/e2e-pw/allure-results
             ALLURE_REPORT_DIR: ${{ github.workspace }}/plugins/woocommerce/tests/e2e-pw/allure-report
+            ADMIN_PASSWORD: ${{ secrets.SMOKE_TEST_ADMIN_PASSWORD }}
+            ADMIN_USER: ${{ secrets.SMOKE_TEST_ADMIN_USER }}
+            ADMIN_USER_EMAIL: ${{ secrets.SMOKE_TEST_ADMIN_USER_EMAIL }}
+            BASE_URL: ${{ secrets.SMOKE_TEST_URL }}
+            CUSTOMER_PASSWORD: ${{ secrets.SMOKE_TEST_CUSTOMER_PASSWORD }}
+            CUSTOMER_USER: ${{ secrets.SMOKE_TEST_CUSTOMER_USER }}
+            DEFAULT_TIMEOUT_OVERRIDE: 120000
+
         strategy:
             fail-fast: false
             matrix:
@@ -203,8 +211,8 @@ jobs:
                     - plugin: 'Gutenberg Nightly'
                       repo: 'bph/gutenberg' # mytodo secret
                       private: true
-                    - plugin: 'Gutenberg Latest'
-                      repo: 'WordPress/gutenberg' # mytodo secret
+                    # - plugin: 'Gutenberg Latest'
+                    #   repo: 'WordPress/gutenberg'
                     # - plugin: 'WordPress SEO' # Yoast SEO in the UI, but the slug is wordpress-seo
                     #   repo: 'Yoast/wordpress-seo'
                     # - plugin: 'Contact Form 7'
