@@ -182,7 +182,7 @@ jobs:
         runs-on: ubuntu-20.04
         permissions:
             contents: read
-        needs: [api-tests]
+        # needs: [api-tests] # mytodo uncomment
         env:
             # USE_WP_ENV: 1
             ALLURE_RESULTS_DIR: ${{ github.workspace }}/plugins/woocommerce/tests/e2e-pw/allure-results
