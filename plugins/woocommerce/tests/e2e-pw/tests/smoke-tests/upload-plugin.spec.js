@@ -69,7 +69,7 @@ test.describe( `${ PLUGIN_NAME } plugin can be uploaded and activated`, () => {
 		} while ( ! page.url().includes( '/plugins.php' ) && --reload );
 
 		// mytodo remove
-		await page.screenshot( 'screenshot-gutenberg-nightly-installed.jpg' );
+		await page.screenshot( { path: 'screenshot-gutenberg-nightly-installed.jpg', fullPage: true } );
 
 		// Assert that the plugin is listed and active
 		await expect(
